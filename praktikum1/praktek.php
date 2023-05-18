@@ -22,7 +22,7 @@ $kumpulan_nilai = [$nilai1, $nilai2, $nilai3, $nilai4];
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <title>Nilai Siswa</title>
+    <title>Praktikum1</title>
 </head>
 
 <body>
