@@ -1,16 +1,17 @@
 <?php
-    $grade = "A";
+    $grade = 1 + 2 + 3;
+    $hasil_grade = 3 * $grade;
 
-    switch($grade){
-        case 'A' :
+    switch($hasil_grade >= 10){
+        case 18 :
             $nilai = "Sangat Memuaskan";
             break;
-        case 'B' :
+        case 40 :
             $nilai = "Memuaskan";
             break;
-        case 'C' : 
+        case 50 : 
             $nilai = "Baik";
-        case 'D' :
+        case 60 :
             $nilai = "Cukup";
             break;
         default:
@@ -18,4 +19,5 @@
         break;
     }
     echo $nilai;
+    $hasil_grade++;
 ?>
