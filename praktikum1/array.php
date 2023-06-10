@@ -1,9 +1,18 @@
 <?php 
+	/* 
+		Array:
 
-	$animals = ["Babi", "Musang", "Ikan", "Burung"];
+		Variable yang bisa menampung lebih dari satu nilai.
+		Menggunakan tanda [] untuk membuat array.
+		Bisa berisikan data dengan jenis berbeda - beda. 
+		Cara mengakses isi array bisa menggunakan index.
+
+	*/
+	
+	$animals = ["nama"=>"Kangguru", "Musang", "Ikan", "Burung"];
 	echo $animals[0]; // Output: Kucing
 	echo "<br>";
-	echo $animals[2]; // Output: Ikan
+	echo $animals['nama']; // Output: Ikan
 	echo "<br>";
 
 ?>
@@ -20,11 +29,10 @@
 	<p>Nama-nama hewan</p>
 	<ul>
 		<?php
-        
-			foreach($animals as $hewan) {
-                echo "<li> $hewan </li>";
-            }
-		?>
+			foreach($animals as $hewan): ?>
+				<li><?= $hewan; ?></li>
+		<?php endforeach; 	
+		?>	
 	</ul>
 </body>
 </html>

@@ -1,8 +1,18 @@
 <?php 
 
-	$nama = "Abdurrahman Ziyad";
+
+/* 
+	Variable:
+	
+	Tempat untuk menyimpan data sehingga bisa digunakan di kode program selanjutnya.
+	Menggunakan tanda $ (dolar) diikuti dengan nama variable nya.
+	Penamaan variabel tidak boleh mengandung spasi.
+*/	
+
+
+	$nama = "Abdillah Thoriq";
 	$jurusan = "Teknik Informatika";
-	$semester = 6;
+	$semester = 2;
 
 ?>
 

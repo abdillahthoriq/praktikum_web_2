@@ -1,4 +1,12 @@
 <?php 
+
+/* 
+    Array Associative:
+
+    Terdiri dari key & value 
+    Key &  Value dipisahkan dengan tanda =>
+    Cara mengakses value menggunakan key nya 
+*/
     $mahasiswa = [
         "nama" => "Abdillah Thoriq",
         "umur" => "21",
