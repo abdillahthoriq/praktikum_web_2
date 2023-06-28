@@ -1,3 +1,4 @@
+
 <?php
     $mahasiswa = [
         ['Abdillah' , 'teknik informatika'],
@@ -6,7 +7,9 @@
         ['Dandi' , 'sastra inggris']
     ];
 
-    foreach($mahasiswa as $mhs) {
-        echo "Nama : ".$mhs[0]. "Jurusan :".$mhs[1]."<br>";
-    }
-?>
+    foreach($mahasiswa as $mhs) : 
+        echo "Nama :"." ".$mhs[0]."<br>";
+        echo "Jurusan :"." ".$mhs[1]."<br>";
+    ?>
+        
+    <?php endforeach; ?>

@@ -1,0 +1,75 @@
+.warna1 {
+    background-color: #07011A
+    ;
+}
+.warna2{
+    background-color: #1F0C55;
+    color: white;
+}
+.warna3{
+    background-color: #100131;
+
+}
+.warna4{
+    background-color: #f5c782;
+}
+
+.banner{
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(../image/banner.jpg);
+}
+.highlighted-kategori{
+    height: 200px;
+}
+
+.pakaian .baju1 {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../image/camera-2.png);
+    background-size: cover;
+    background-position: center;
+}
+.pakaian .baju2 {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../image/camera-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.pakaian .baju3 {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../image/camera-3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.pakaian * {
+    text-decoration: none;
+    color: white;
+}
+.pakaian .text-white a:hover { 
+    color: #07011A  ;
+}
+.image-box {
+    height: 250px;
+}
+.image-box img{
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-color
+{
+    color: #ffffff !important;
+}
+
+.banner-produk {
+    height: 40vh;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(../image/banner.jpg);
+}
+.backtoback{
+    background-color: #02001E !important;
+}
+
+.gambar-produk {
+    height: 100vh;
+    background-color: #1F0C55;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)), url(image/camera-2.png) ;
+}

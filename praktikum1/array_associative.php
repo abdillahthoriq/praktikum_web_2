@@ -1,5 +1,4 @@
 <?php 
-
 /* 
     Array Associative:
 
@@ -7,6 +6,8 @@
     Key &  Value dipisahkan dengan tanda =>
     Cara mengakses value menggunakan key nya 
 */
+?>
+<?php
     $mahasiswa = [
         "nama" => "Abdillah Thoriq",
         "umur" => "21",
@@ -26,10 +27,10 @@
                 <th>Alamat</th>
             </tr>
             <tr text-align="center">
-                <td><?php echo $mahasiswa['nama'] ?></td>
+                <td><?php echo $mahasiswa ['nama'] ?></td>
                 <td><?php echo $mahasiswa['umur'] ?></td>
                 <td><?php echo $mahasiswa['alamat'] ?></td>
             </tr>
-         </table>
+        </table>
     </body>
 </html> 
